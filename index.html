@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Maven+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../font-css/all.min.css">
+<!-- <link rel="stylesheet" href="../font-css/all.css"> -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <ul class="parent-list">
+            <!-- //parent underlist -->
+            <div class="layer-one-flex">
+             <li class="first-parent-child">
+                    <ul class="nested-list">
+                        <li style="border-bottom: none">
+                            <label>DAY</label>
+                            <input type ="text" placeholder="DD" class="day-input">
+                        </li>
+                        
+                        <li>
+                            <label>MONTH</label>
+                            <input type ="text" placeholder="MM" class="month-input">
+                        </li>
+                        
+                        <li>
+                            <label>YEAR</label>
+                            <input type ="text" placeholder="YYYY" class="year-input">
+                        </li>
+                      
+                    </ul>
+                   
+                </li>
+              
+                <div class ="arrow"><i class="fa-solid fa-arrow-down"></i> </div>
+            </div>
+
+            <!-- <div class="empty-fields">
+                <li>THE FIELD IS REQUIRED</li>
+                <li>THE FIELD IS REQUIRED</li>
+                <li>THE FIELD IS REQUIRED</li>
+            </div> -->
+            <!-- <div class="invalid">
+                <li>must be a valid day</li>
+                <li>must be a valid month</li>
+                <li>must be in the past</li>
+            </div> -->
+
+            <!-- <div class="invalid-date">
+                <li>must be a valid date</li>
+            </div> -->
+
+                <!-- <div class="invalid-month">
+             <li>invalid month</li> 
+                </div> -->
+
+                <!-- <div class="invalid-year hidden">
+             <li>invalid year</li> 
+                </div> -->
+
+            <!-- //second child of parent list -->
+            
+             
+         </ul>
+
+         <ul>
+            <li class="years">
+                <div>
+                    <h1>--</h1>
+                </div>
+                <h1>Years</h1>
+            </li>
+
+            <li class="months">
+                <div>
+                    <h1>--</h1>
+                </div>
+                <h1> Months</h1>
+            </li>
+
+            <li class="day">
+                <div>
+                    <h1>--</h1>
+                </div>
+                <h1>Days</h1>
+            </li>
+        </ul>
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
